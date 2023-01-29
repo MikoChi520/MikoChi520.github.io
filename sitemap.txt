@@ -1,2 +1,6 @@
-http://example.com/2023/01/28/hello-world/
+http://example.com/links/index.html
+http://example.com/tags/index.html
+http://example.com/messageboard/index.html
+http://example.com/categories/index.html
+http://example.com/2023/01/29/hello-world/
 http://example.com/
