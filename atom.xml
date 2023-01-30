@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-01-28T11:03:08.000Z</updated>
+  <updated>2023-01-30T05:48:20.278Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,22 +17,81 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2023/01/29/hello-world/"/>
-    <id>http://example.com/2023/01/29/hello-world/</id>
-    <published>2023-01-29T11:17:57.074Z</published>
-    <updated>2023-01-28T11:03:08.000Z</updated>
+    <title>关于我利用国外免费虚拟主机搭建网址这件事</title>
+    <link href="http://example.com/2023/01/26/%E5%85%B3%E4%BA%8E%E6%88%91%E5%88%A9%E7%94%A8%E5%9B%BD%E5%A4%96%E5%85%8D%E8%B4%B9%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E8%BF%99%E4%BB%B6%E4%BA%8B/"/>
+    <id>http://example.com/2023/01/26/%E5%85%B3%E4%BA%8E%E6%88%91%E5%88%A9%E7%94%A8%E5%9B%BD%E5%A4%96%E5%85%8D%E8%B4%B9%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E8%BF%99%E4%BB%B6%E4%BA%8B/</id>
+    <published>2023-01-25T21:54:00.000Z</published>
+    <updated>2023-01-30T05:48:20.278Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我使用的是一个叫**<a href="https://profreehost.com/">profreehost</a><strong>，除了，</strong><a href="https://profreehost.com/">profreehost</a><strong>我还认识其他几个国外免费虚拟主机，如：</strong><a href="http://infinityfree.net/">Infinityfree</a><strong>、</strong><a href="https://www.freewebhostingarea.com/">freewebhostingarea</a><strong>、</strong><a href="https://byet.host/">byet</a>**<br><strong><a href="https://profreehost.com/">profreehost</a><strong>这个网站是我的老熟客了，很早之前，貌似是无限空间大概是啥都是无限用的，年少无知的我用这个网站搭建了一个基于</strong>wordpress</strong>的资源站，刚开始网站能够在国内正常访问到访问时不时出现网站存储不够？（已经记不清了）到最后国内完全访问不了，我认为大概是我把图片和文件都上传到网站空间的缘故，也有另一种可能，因为我搭建的不是普通的资源站，至于是什么样的资源站大家多多少少都知道，那么有了前车之鉴，我这次会把图片啥的全都用云图床以及直链云储网盘之类的。<br>其实用<strong>Hexo+GitHub</strong>更稳妥些，但我一直没有用是因为<strong>Hexo</strong>没办法像<strong>wordpress</strong>和<strong>typecho</strong>那样编辑文章（可能有是我不知道），我在**<a href="https://profreehost.com/">profreehost</a><strong>还有一个介绍站目前还一直健在，那个</strong><a href="http://infinityfree.net/">Infinityfree</a><strong>我也用过，例外吐槽下这些免费虚拟主机FTP上传又慢有麻烦（挂梯子有的直接让你啥也看不见），这些免费虚拟主机自带的在线文件操作网站，怎么说呢上传是快，也提供了压缩包上传自动解压，就是不知道是不是我的问题，我用这玩意上传压缩包，进度条是走完了，就是一直搁那转我等了半小时都没见好（挂梯子也是过了），放弃了，好了，现在分享我如何利用</strong><a href="https://profreehost.com/">profreehost</a>**搭建网站的。</p><h2 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h2><p>在创建好主机后，我使用了filezilla连接FTP上传文件，有一说一上传慢的一批，我耗费了一些时间才把<strong>typecho</strong>的源码成功上传，上传好后我进入了虚拟主机的仪表盘创建数据库，创建好后我访问网站域名开始安装<strong>typecho</strong>，之后就是各种网站配置什么的，<strong>typecho</strong>没办法像<strong>wordpress</strong>一样直接在网站上传插件和主题，确实有点麻烦。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;我使用的是一个叫**&lt;a href=&quot;https://profreehost.com/&quot;&gt;profreehost&lt;/a&gt;&lt;strong&gt;，除</summary>
       
     
     
     
+    <category term="杂谈" scheme="http://example.com/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="虚拟主机" scheme="http://example.com/tags/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>站点实验田</title>
+    <link href="http://example.com/2023/01/25/%E7%AB%99%E7%82%B9%E5%AE%9E%E9%AA%8C%E7%94%B0/"/>
+    <id>http://example.com/2023/01/25/%E7%AB%99%E7%82%B9%E5%AE%9E%E9%AA%8C%E7%94%B0/</id>
+    <published>2023-01-25T05:44:00.000Z</published>
+    <updated>2023-01-30T05:49:40.081Z</updated>
+    
+    <content type="html"><![CDATA[<p>QQ发送图片＆视频，测试腾讯服务器能储存多久<br><img src="http://gchat.qpic.cn/gchatpic_new/3487095186/860113850-2225324070-A69B64A353B3234EAA2CF4065A7A7165/0?term=2" alt="群发送"><br><img src="https://pan.tenire.com/view.php/89b2b6735ec37dadbe9d383072bd7cd7.jpg" alt="直链盘"><br>test<br>[video title&#x3D;”test “ url&#x3D;”<a href="http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4">http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4</a> “ container&#x3D;”bwbk4kkcy57” subtitle&#x3D;” “ poster&#x3D;” “] [&#x2F;video]</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;QQ发送图片＆视频，测试腾讯服务器能储存多久&lt;br&gt;&lt;img src=&quot;http://gchat.qpic.cn/gchatpic_new/3487095186/860113850-2225324070-A69B64A353B3234EAA2CF4065A7A7165/0?</summary>
+      
+    
+    
+    
+    <category term="小志的奇怪研究" scheme="http://example.com/categories/%E5%B0%8F%E5%BF%97%E7%9A%84%E5%A5%87%E6%80%AA%E7%A0%94%E7%A9%B6/"/>
+    
+    
+    <category term="云储" scheme="http://example.com/tags/%E4%BA%91%E5%82%A8/"/>
+    
+    <category term="腾讯" scheme="http://example.com/tags/%E8%85%BE%E8%AE%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一个一个测试</title>
+    <link href="http://example.com/2023/01/22/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://example.com/2023/01/22/%E6%B5%8B%E8%AF%95/</id>
+    <published>2023-01-22T15:48:19.000Z</published>
+    <updated>2023-01-30T05:48:00.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>感觉自己玩服务器还是跟玩单机没两样<br><img src="https://azuimg.com/file/0107d6c7bc39e9a216ee2.jpg" alt="嗯哼啊啊啊"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;感觉自己玩服务器还是跟玩单机没两样&lt;br&gt;&lt;img src=&quot;https://azuimg.com/file/0107d6c7bc39e9a216ee2.jpg&quot; alt=&quot;嗯哼啊啊啊&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="杂谈" scheme="http://example.com/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="我的世界" scheme="http://example.com/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+    
+    <category term="Minecraft" scheme="http://example.com/tags/Minecraft/"/>
+    
+    <category term="服务器" scheme="http://example.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
